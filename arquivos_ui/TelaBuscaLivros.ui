@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>387</width>
+    <width>401</width>
     <height>338</height>
    </rect>
   </property>
@@ -22,7 +22,7 @@
      <rect>
       <x>0</x>
       <y>140</y>
-      <width>391</width>
+      <width>411</width>
       <height>201</height>
      </rect>
     </property>
@@ -50,26 +50,6 @@
      </property>
     </column>
    </widget>
-   <widget class="QPushButton" name="btnBuscarLivros">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>60</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);</string>
-    </property>
-    <property name="text">
-     <string>Pesquisar</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../icons/arquivo-de-documento.png</normaloff>../icons/arquivo-de-documento.png</iconset>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="edtcodigo">
     <property name="geometry">
      <rect>
@@ -86,7 +66,7 @@
    <widget class="QLineEdit" name="edtlivro">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>70</x>
       <y>60</y>
       <width>121</width>
       <height>20</height>
@@ -99,7 +79,7 @@
    <widget class="QLineEdit" name="edtautor">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>200</x>
       <y>60</y>
       <width>101</width>
       <height>20</height>
@@ -107,6 +87,65 @@
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BtnBuscarLivros">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>60</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Pesquisar</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/arquivo-de-documento.png</normaloff>../icons/arquivo-de-documento.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCod">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Código</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblLivro">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>40</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Livro</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblAutor">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>40</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Autor</string>
     </property>
    </widget>
   </widget>

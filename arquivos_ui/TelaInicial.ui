@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>440</width>
+    <width>447</width>
     <height>382</height>
    </rect>
   </property>
@@ -49,8 +49,8 @@ background-color:rgb(85, 170, 127)</string>
      <rect>
       <x>10</x>
       <y>120</y>
-      <width>75</width>
-      <height>23</height>
+      <width>101</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -61,7 +61,7 @@ background-color:rgb(85, 170, 127)</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>icons/arquivo-de-documento.png</normaloff>icons/arquivo-de-documento.png</iconset>
+      <normaloff>../icons/arquivo-de-documento.png</normaloff>../icons/arquivo-de-documento.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -73,10 +73,10 @@ background-color:rgb(85, 170, 127)</string>
    <widget class="QPushButton" name="btncomprar">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>120</x>
       <y>120</y>
-      <width>75</width>
-      <height>23</height>
+      <width>121</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -87,7 +87,33 @@ background-color:rgb(85, 170, 127)</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>icons/carrinho-de-compras.png</normaloff>icons/carrinho-de-compras.png</iconset>
+      <normaloff>../icons/carrinho-de-compras.png</normaloff>../icons/carrinho-de-compras.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnADDLivros">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>120</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>adicionar Livros</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/livro.png</normaloff>../icons/livro.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
     </property>
    </widget>
   </widget>
