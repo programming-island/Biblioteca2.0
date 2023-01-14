@@ -1,9 +1,10 @@
 from TelaInicial_ui import *
+from PyQt5.QtWidgets import QMainWindow, QApplication
 import sys
-from PyQt5.QtWidgets import QtmainWindow, QApplication
 
 
-class TelaInicial(QtmainWindow) :
+
+class TelaInicial(QMainWindow) :
     def __init__(self,parent = None):
         super().__init__(parent)
 
