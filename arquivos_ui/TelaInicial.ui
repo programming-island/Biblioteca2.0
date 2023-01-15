@@ -74,7 +74,7 @@ background-color:rgb(85, 170, 127)</string>
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>120</y>
+      <y>180</y>
       <width>121</width>
       <height>31</height>
      </rect>
