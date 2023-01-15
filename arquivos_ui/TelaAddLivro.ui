@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>452</width>
+    <width>419</width>
     <height>361</height>
    </rect>
   </property>
@@ -16,12 +16,15 @@
   <property name="styleSheet">
    <string notr="true">background-color: rgb(85, 170, 127);</string>
   </property>
+  <property name="inputMethodHints">
+   <set>Qt::ImhNone</set>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="btnaddlivro">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>80</y>
+      <x>240</x>
+      <y>70</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -51,6 +54,9 @@ border-radius: 30px;
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
+    <property name="maxLength">
+     <number>100</number>
+    </property>
    </widget>
    <widget class="QLineEdit" name="edtAutor">
     <property name="geometry">
@@ -63,6 +69,12 @@ border-radius: 30px;
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string notr="true"/>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
     </property>
    </widget>
    <widget class="QLineEdit" name="edtAno">
@@ -81,14 +93,20 @@ border-radius: 30px;
    <widget class="QLineEdit" name="edtpreco">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>30</y>
+      <x>130</x>
+      <y>80</y>
       <width>71</width>
       <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhFormattedNumbersOnly</set>
+    </property>
+    <property name="inputMask">
+     <string/>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit">
@@ -120,8 +138,8 @@ border-radius: 30px;
    <widget class="QLabel" name="lblpreco">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>10</y>
+      <x>130</x>
+      <y>60</y>
       <width>47</width>
       <height>13</height>
      </rect>
@@ -167,6 +185,48 @@ border-radius: 30px;
     </property>
     <property name="text">
      <string>Descrição</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>30</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(184, 184, 184);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>F</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>M</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="lblsexodoautor">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sexo do autor</string>
     </property>
    </widget>
   </widget>

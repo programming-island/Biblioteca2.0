@@ -116,7 +116,7 @@ background-color:rgb(85, 170, 127)</string>
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="SairDoSistema">
+   <widget class="QPushButton" name="btnSair">
     <property name="geometry">
      <rect>
       <x>10</x>
