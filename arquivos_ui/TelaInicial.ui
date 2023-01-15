@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>387</width>
-    <height>382</height>
+    <width>391</width>
+    <height>359</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -35,6 +35,7 @@ background-color:rgb(85, 170, 127)</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 75 36pt &quot;Rockwell&quot;;
+selection-color: rgb(255, 85, 0);
 </string>
     </property>
     <property name="frameShape">
@@ -74,7 +75,7 @@ background-color:rgb(85, 170, 127)</string>
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>180</y>
+      <y>120</y>
       <width>121</width>
       <height>31</height>
      </rect>
