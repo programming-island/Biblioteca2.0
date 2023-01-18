@@ -143,6 +143,32 @@ selection-color: rgb(255, 85, 0);
      </size>
     </property>
    </widget>
+   <widget class="QPushButton" name="btnlerdescricao">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>180</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Ler Descrição</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/leitura.png</normaloff>../icons/leitura.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+   </widget>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
