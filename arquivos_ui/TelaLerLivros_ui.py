@@ -36,7 +36,7 @@ class Ui_TelaLerDescricao(object):
         self.btnBuscar.setGeometry(QtCore.QRect(70, 10, 91, 23))
         self.btnBuscar.setStyleSheet("background-color: rgb(255, 255, 0);")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("D:/icons/arquivo-de-documento.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("../icons/arquivo-de-documento.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btnBuscar.setIcon(icon)
         self.btnBuscar.setObjectName("btnBuscar")
         TelaLerDescricao.setCentralWidget(self.centralwidget)
@@ -47,4 +47,5 @@ class Ui_TelaLerDescricao(object):
     def retranslateUi(self, TelaLerDescricao):
         _translate = QtCore.QCoreApplication.translate
         TelaLerDescricao.setWindowTitle(_translate("TelaLerDescricao", "Ler descrição"))
+        self.lineEdit_2.setText(_translate("TelaLerDescricao", "asdasda"))
         self.btnBuscar.setText(_translate("TelaLerDescricao", "Buscar"))
